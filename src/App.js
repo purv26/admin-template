@@ -20,7 +20,7 @@ function  App() {
   <Container className={classes.root}>
     <Grid container spacing={5}>
       <Grid item sm={3}>
-        <Card >
+        <Card style={{backgroundColor: "#1437B6", color: "#FFF"}}>
           <CardContent>
             <Typography variant="h5">ORDERS</Typography>
             <Typography variant="subtitles"></Typography>
@@ -34,7 +34,7 @@ function  App() {
       </Grid>
 
       <Grid item sm={3}>
-        <Card>
+        <Card style={{backgroundColor: "#1437B6", color: "#FFF"}}>
           <CardContent>
             <Typography variant="h5">REVENUE</Typography>
             <Typography variant="subtitles"></Typography>
@@ -47,7 +47,7 @@ function  App() {
       </Grid>
 
       <Grid item sm={3}>
-        <Card>
+        <Card style={{backgroundColor: "#1437B6", color: "#FFF"}}>
           <CardContent>
             <Typography variant="h5">AVERAGE PRICE</Typography>
             <Typography variant="subtitles"></Typography>
@@ -60,7 +60,7 @@ function  App() {
       </Grid>
 
       <Grid item sm={3}>
-        <Card>
+        <Card style={{backgroundColor: "#1437B6", color: "#FFF"}}>
           <CardContent>
             <Typography variant="h5">CAR WASH</Typography>
             <Typography variant="subtitles"></Typography>
