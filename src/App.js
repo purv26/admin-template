@@ -27,8 +27,7 @@ function  App() {
             <Typography variant="subtitles"></Typography>
           </CardContent>
           <CardActions>
-            <Button> Since Last month</Button>
-            <ArrowForwardIcon />
+            <Button endIcon={<ArrowForwardIcon />} style={{color: "#FFF"}}>Since Last month</Button>
           </CardActions>
         </Card>
       </Grid>
@@ -40,8 +39,7 @@ function  App() {
             <Typography variant="subtitles"></Typography>
           </CardContent>
           <CardActions>
-            <Button> Since Last month   </Button>
-            <ArrowForwardIcon />
+            <Button endIcon={<ArrowForwardIcon />} style={{color: "#FFF"}}>Since Last month</Button>
           </CardActions>
         </Card>
       </Grid>
@@ -53,8 +51,7 @@ function  App() {
             <Typography variant="subtitles"></Typography>
           </CardContent>
           <CardActions>
-            <Button> Since Last month</Button>
-            <ArrowForwardIcon />
+            <Button endIcon={<ArrowForwardIcon />} style={{color: "#FFF"}}>Since Last month</Button>
           </CardActions>
         </Card>
       </Grid>
@@ -66,8 +63,7 @@ function  App() {
             <Typography variant="subtitles"></Typography>
           </CardContent>
           <CardActions>
-            <Button> Since Last month</Button>
-            <ArrowForwardIcon />
+            <Button endIcon={<ArrowForwardIcon />} style={{color: "#FFF"}}>Since Last month</Button>
           </CardActions>
         </Card>
       </Grid>
